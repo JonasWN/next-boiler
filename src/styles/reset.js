@@ -35,10 +35,12 @@ dd {
   margin: 0;
 }
 body {
+  background: ${({ theme }) => theme.colors.body};
+  color: ${({ theme }) => theme.colors.font};
   min-height: 100vh;
   scroll-behavior: smooth;
   line-height: 1.5;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Barlow', sans-serif;
   -ms-overflow-style: none;
 }
  

@@ -12,7 +12,9 @@
   "dependencies": {
     "next": "^9.5.2",
     "react": "^16.13.1",
+    "react-device-detect": "^1.13.1",
     "react-dom": "^16.13.1",
+    "recoil": "^0.0.10",
     "styled-components": "^5.1.1"
   }
 }
