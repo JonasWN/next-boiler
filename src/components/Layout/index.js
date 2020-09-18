@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import { Theme } from '../styles/theme'
-import { Container } from '../styles/layoutStyle'
-import { GlobalStyle } from '../styles/reset'
+import { Theme } from '../../styles/theme'
+import { Container } from '../../styles/layoutStyle'
+import { GlobalStyle } from '../../styles/reset'
 import { ThemeProvider } from 'styled-components'
 
 const Layout = ({ children, title }) => {
@@ -24,5 +24,4 @@ const Layout = ({ children, title }) => {
     </ThemeProvider>
   )
 }
-
 export default Layout
